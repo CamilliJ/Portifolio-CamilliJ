@@ -12,7 +12,7 @@ main{
 
 .box-photo{
     background-color: #2d2d2d;
-    width: 35%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -32,6 +32,7 @@ main{
     flex-direction: column;
     justify-content: center;
     padding-left: 100px;
+    padding-top: 120px;
 
 }
 
@@ -41,6 +42,7 @@ main{
     opacity: 1;
     animation: pisca .7s infinite;
 }
+
 @keyframes pisca{
     0%, 100%{
         opacity: 1;
@@ -63,10 +65,208 @@ main{
     font-size: 100px;
     color: #FFA500;
     margin-top: -30px;
+    margin-bottom: 10px;
     font-weight: bold;
 
+}
+
+.profissao{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    color: gray;
+}
+
+.icone{
+    width: 30px;
+}
+
+.rede{
+    padding-top: 10px;
+}
+
+
+.social{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 120px;
+    cursor: pointer;
+}
+
+.infopessoais{
+    border-top: 1px solid rgb(97, 97, 97);
+    margin-right: 120px;
+    margin-top: 180px;
+}
+
+.infopessoais{
+    display: flex;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    color: gray;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.email{
+    margin-left: 180px;
+}
+
+.titulo{
+    background-color: #313131;
+    width: 35%;
+}
+
+.texto{
+    background-color: #2d2d2d;
+    width: 65%;
+}
+
+.intro{
+    display: flex;
+    
+}
+
+.box-titulo{
+    background-color: #363636;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: 'Didact Gothic', sans-serif;
+    
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(90, 90, 90);
+    font-weight: 200;
+    margin-right: 90px;
+    
+}
+
+.box-text{
+    background-color: #363636;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    align-items: center;
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 200;
+    margin-right: 90px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.skils{
+    display: flex;
+    margin-bottom: 400px;
+}
+
+.skils-titulo{
+    background-color: #313131;
+}
+
+.skils-text{
+    background-color: #313131;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.coluna1{
+    width: 40%;
+}
+.coluna2{
+    width: 60%;
+}
+
+
+/* Stylingthe last h2 tag by giving margin bottom */
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+
+/* Styling the border and box
+effect of the progress bar*/
+.progress-bar {
+    width: 300px;
+    height: 5px;
+    border: 1px solid #565656;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(245, 159, 0, 0.537);
+}
+
+/* Stylingthe background color of each
+animation and border radius */
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: orange;
+    border-radius: 5px;
+    animation: progress 1500ms ease-in 1;
+}
+
+
+.python {
+    width: 95%;
+}
+
+.html {
+    width: 100%;
+}
+
+.c {
+    width: 85%;
+}
+
+.java {
+    width: 70%;
 }
 
 
 
 
+.css {
+    width: 65%;
+}
+
+.javascript {
+    width: 55%;
+}
+
+/* Animating the progress bar by
+initially starting from 0*/
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+
+.linguagem{
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+    font-weight: 200;
+    padding-bottom: 0;
+    font-family: 'Didact Gothic', sans-serif;
+}
