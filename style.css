@@ -176,7 +176,6 @@ h2{
 
 .skils{
     display: flex;
-    margin-bottom: 400px;
 }
 
 .skils-titulo{
@@ -294,3 +293,89 @@ initially starting from 0*/
     padding-bottom: 0;
     font-family: 'Didact Gothic', sans-serif;
 }
+
+
+.bonus{
+    display: flex;
+    margin-bottom: 400px;
+}
+
+.box-text{
+    display: flex;   
+    flex-direction: row; 
+    padding-right: 100px;
+}
+
+.part1{
+    width: 50%;
+}
+
+.part2{
+    width: 50%;
+}
+
+.subtitulo{
+    display: flex;
+    font-family: 'Didact Gothic', sans-serif;
+    color: gray;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.subtitulo:hover{
+    color: orange;
+}
+
+.numeral{
+    color: orange;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.descricao-hab{
+    font-family: 'Didact Gothic', sans-serif;
+    color: gray;
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 30px;
+    margin-top: 10px;
+    
+}
+
+.ingles{
+    margin-bottom: 80px;
+}
+
+.best{
+    margin-bottom: 170px; 
+}
+
+.google{
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
