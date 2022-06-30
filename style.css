@@ -236,25 +236,49 @@ animation and border radius */
     width: 100%;
 }
 
-.c {
+.css {
     width: 85%;
+}
+
+.php {
+    width: 70%;
 }
 
 .java {
     width: 70%;
 }
 
+.c {
+    width: 50%;
+}
 
-
-
-.css {
-    width: 65%;
+.sql{
+    width: 50%;
 }
 
 .javascript {
-    width: 55%;
+    width: 90%;
 }
 
+.type{
+    width: 30%;
+}
+
+.react{
+    width: 30%;
+}
+
+.node{
+    width: 70%;
+}
+
+.swift{
+    width: 50%;
+}
+
+.kotlin{
+    width: 40%;
+}
 /* Animating the progress bar by
 initially starting from 0*/
 @keyframes progress {
