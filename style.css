@@ -85,7 +85,6 @@ main{
     padding-top: 10px;
 }
 
-
 .social{
     display: flex;
     width: 150px;
@@ -195,19 +194,15 @@ h2{
 .coluna1{
     width: 40%;
 }
+
 .coluna2{
     width: 60%;
 }
 
-
-/* Stylingthe last h2 tag by giving margin bottom */
 .progress-bar-container:not(:last-child) {
     margin-bottom: 5px;
 }
 
-
-/* Styling the border and box
-effect of the progress bar*/
 .progress-bar {
     width: 300px;
     height: 5px;
@@ -216,8 +211,6 @@ effect of the progress bar*/
     box-shadow: 0 0 10px rgba(245, 159, 0, 0.537);
 }
 
-/* Stylingthe background color of each
-animation and border radius */
 .percentage {
     display: block;
     height: 100%;
@@ -225,7 +218,6 @@ animation and border radius */
     border-radius: 5px;
     animation: progress 1500ms ease-in 1;
 }
-
 
 .python {
     width: 95%;
@@ -278,8 +270,8 @@ animation and border radius */
 .kotlin{
     width: 40%;
 }
-/* Animating the progress bar by
-initially starting from 0*/
+
+
 @keyframes progress {
     from {
         width: 0;
@@ -294,10 +286,8 @@ initially starting from 0*/
     font-family: 'Didact Gothic', sans-serif;
 }
 
-
 .bonus{
     display: flex;
-    margin-bottom: 400px;
 }
 
 .box-text{
@@ -355,27 +345,98 @@ initially starting from 0*/
     margin-bottom: 60px;
 }
 
+.experiencias{
+    display: flex;
+    margin-bottom: 400px;
+    padding-bottom: 60px ;
+}
+
+.box-text-exp{
+    background-color: #363636;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    background-color: #313131;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+} 
+
+.box-titulo-exp{
+    background-color: #363636;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #313131; 
+}
+
+.bolinha-e-texto{
+    display: flex;
+    align-items: center;
+    font-family: 'Didact Gothic', sans-serif;
+    color: gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.bolinha{
+    border-radius: 50%;
+    background-color: #FFA500;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: -10px;
+}
+
+.texto-lado{
+    font-size: 14px;
+}
+
+.desc-exp{
+    color: grey;
+    font-family: 'Didact Gothic', sans-serif;
+    border-left: solid 1px rgb(97, 97, 97);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.col-titulo-exp{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.titulo-empresa{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cargo-empresa{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 
 
+.local-empresa{
+    margin-bottom: 20px;
+}
 
+.col-descricao-exp{
+    width: 60%;
+    margin-right: 90px;
+    text-align: justify;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.amarelo{
+    color: #FFA500;
+}
 
 
 
